@@ -1,0 +1,76 @@
+/* Body styling */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	background-color: rgb(216, 204, 225);
+
+	padding: 0;
+}
+
+/* Container styling */
+.create-post-container {
+	max-width: 600px;
+	margin: 100px auto;
+
+	background-color: #f0f0f0;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* Form styling */
+.create-post-form {
+	margin-top: 20px;
+}
+
+/* Form group styling */
+.form-group {
+	margin-bottom: 15px;
+}
+
+/* Label styling */
+label {
+	color: #666;
+}
+
+/* Input styling */
+input[type="text"] {
+	width: calc(100% - 12px);
+	padding: 8px;
+	margin-top: 6px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+/* Button styling */
+button {
+	width: 100%;
+	padding: 10px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin: 5px;
+}
+
+/* Button hover effect */
+button:hover {
+	background-color: #0056b3;
+}
+span {
+	display: flex;
+	flex-direction: row;
+}
